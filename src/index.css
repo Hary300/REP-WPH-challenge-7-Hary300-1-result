@@ -11,6 +11,8 @@
 @source "./**/*.{js,jsx,ts,tsx}";
 @source "../index.html";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @font-face {
   font-family: 'Quicksand';
   src: url('./assets/fonts/Quicksand-Light.woff2') format('woff2');
@@ -182,6 +184,10 @@
 /* Smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-black dark:bg-black dark:text-white transition-colors duration-300;
 }
 
 /* Optional: Custom scrollbar styles */
