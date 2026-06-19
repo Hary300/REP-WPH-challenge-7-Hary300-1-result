@@ -3,7 +3,7 @@ import DarkHeroImage from '../../assets/images/dark-mode/dark-hero-image.webp';
 import { useDark } from '../../contexts/dark-mode/useDark';
 import { companyInfo } from '@/data/company';
 import Button from '../ui/buttons/Button';
-import ImageVignetteOverlay from '../ui/ImageVignetteOverlay';
+import ImageVignetteOverlay from './../ui/ImageVignetteOverlay';
 
 const HeroSection = () => {
   const { isDark } = useDark();
