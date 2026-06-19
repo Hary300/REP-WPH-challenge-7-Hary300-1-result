@@ -11,7 +11,7 @@ const Navbar = ({ scrolled }: NavbarProp) => {
   const { isOpen } = useMobileMenu();
   return (
     <header
-      className={`sticky top-0 z-50 ${isOpen ? 'bg-white' : scrolled ? 'backdrop-blur-2xl' : 'bg-transparent'}`}
+      className={`sticky top-0 z-50 ${isOpen ? 'bg-white dark:bg-black' : scrolled ? 'backdrop-blur-2xl' : 'bg-transparent'}`}
     >
       <nav>
         <Container variant='header'>
