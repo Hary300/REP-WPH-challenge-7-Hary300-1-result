@@ -25,7 +25,7 @@ const IndustriesSection = () => {
               <TabsTrigger
                 key={item.id}
                 value={item.title}
-                className='border-l-4 border-l-neutral-600 font-bold cursor-pointer'
+                className='border-l-4 border-l-neutral-600 font-bold cursor-pointer text-md lg:text-xl'
               >
                 {item.title}
               </TabsTrigger>

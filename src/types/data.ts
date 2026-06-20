@@ -31,3 +31,8 @@ export interface Industry {
   description: string;
   image: string;
 }
+export interface Project {
+  id: number;
+  title: string;
+  image: string;
+}
