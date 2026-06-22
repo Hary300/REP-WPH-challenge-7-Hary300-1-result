@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import Footer from './Footer';
-import Navbar from './Navbar';
-import OffcanvasMenu from './OffcanvasMenu';
+import Footer from '@/components/layout/Footer';
+import Navbar from '@/components/layout/Navbar';
+import OffcanvasMenu from '@/components/layout/OffcanvasMenu';
 import type { LayoutProps } from '@/types';
 import { useMobileMenu } from '@/contexts/mobile-menu/useMobileMenu';
 
