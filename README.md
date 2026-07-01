@@ -4,7 +4,7 @@ A modern, responsive company profile website built with **React**, **TypeScript*
 
 ## 🚀 Live Demo
 
-- **Live Demo:** https://rep-wph-challenge-7-hary300-1-resul.vercel.app/
+- **Live Demo:** https://personal-project-27-company-profile.vercel.app/
 - **Repository:** https://github.com/Hary300/Personal-Project-27-Company-Profile
 
 ---
